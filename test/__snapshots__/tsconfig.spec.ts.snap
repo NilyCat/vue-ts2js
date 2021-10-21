@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tsconfig compilerOptions 1`] = `
+Object {
+  "allowJs": false,
+  "allowSyntheticDefaultImports": true,
+  "declaration": true,
+  "declarationDir": "lib/types",
+  "esModuleInterop": true,
+  "experimentalDecorators": true,
+  "forceConsistentCasingInFileNames": true,
+  "importHelpers": true,
+  "listEmittedFiles": true,
+  "listFiles": true,
+  "module": "commonjs",
+  "noUnusedLocals": true,
+  "noUnusedParameters": true,
+  "outDir": "./lib",
+  "removeComments": true,
+  "resolveJsonModule": false,
+  "sourceMap": false,
+  "strict": true,
+  "target": "es2017",
+  "types": Array [
+    "jest",
+    "@types/node",
+  ],
+}
+`;
+
+exports[`tsconfig compilerOptions 2`] = `
+Object {
+  "allowJs": false,
+  "allowSyntheticDefaultImports": true,
+  "declaration": true,
+  "declarationDir": "lib/types",
+  "esModuleInterop": true,
+  "experimentalDecorators": true,
+  "forceConsistentCasingInFileNames": true,
+  "importHelpers": true,
+  "listEmittedFiles": true,
+  "listFiles": true,
+  "module": "commonjs",
+  "moduleResolution": "node",
+  "noUnusedLocals": true,
+  "noUnusedParameters": true,
+  "outDir": "./lib",
+  "removeComments": true,
+  "resolveJsonModule": false,
+  "skipLibCheck": true,
+  "sourceMap": false,
+  "strict": true,
+  "target": "es2015",
+  "types": Array [
+    "jest",
+    "@types/node",
+  ],
+}
+`;
